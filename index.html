@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flappy Bird Clone</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #000 !important; /* Force black background */
+            width: 100vw;
+            height: 100vh;
+        }
+        canvas {
+            display: block;
+            background-color: #000 !important; /* Force black background on canvas */
+            width: 100vw;
+            height: 100vh;
+        }
+    </style>
+</head>
+<body class="bg-sky-300">
+    <div class="text-center">
+        <canvas id="gameCanvas" width="320" height="480"></canvas>       
+        <div id="scoreBoard" class="absolute top-5 left-5 bg-black/80 p-4 rounded-lg border border-white/20 text-white font-mono w-56 whitespace-nowrap shadow-xl z-10">
+            <table class="text-center w-full">
+                <tr class="border-b border-white/10">
+                    <td class="w-24 text-xl font-bold">SCORE</td>
+                    <td id="currentScore" class="text-xl">0</td>
+                </tr>
+                <tr>
+                    <td class="w-24 text-base opacity-80">HI-SCORE</td>
+                    <td id="highScore" class="text-base opacity-80">0</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
