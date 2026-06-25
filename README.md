@@ -2,6 +2,8 @@
 
 A high-octane, sci-fi reimagining of the classic "Flappy Bird" mechanics. This project features a sleek spaceship aesthetic, dynamic difficulty scaling, and a reactive plexus particle system that creates an immersive, neon-drenched atmosphere.
 
+![alt text](screenshot.png)
+
 ![License](https://img.shields.io/badge/license-MIT-blue)
 ![Status](https://img.shields.io/badge/status-active-green)
 
